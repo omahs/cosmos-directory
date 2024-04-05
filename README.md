@@ -31,7 +31,7 @@ See [worker.js](./worker.js)
 See [app.js](./app.js)
 
 - Sensible JSON API access the registry data cached in Redis
-- REST/RPC proxy endpoints to access the most suitable API at any given time, based on response times, block heights etc. Some minor caching is also carried out here to reduce load on the public APIs. These endpoints are accesible to any CORS origin which is a key requirement for browser based apps.
+- REST/RPC proxy endpoints to access the most suitable API at any given time, based on response times, block heights etc. Some minor caching is also carried out here to reduce load on the public APIs. These endpoints are accessible to any CORS origin which is a key requirement for browser based apps.
 - Alternative Validators API to provide on-chain validators decorated with convenience attributes such as image URLs and Rank, and additional Validator Registry attributes such as REStake configuration.
 - Status API to monitor public API availability.
 
